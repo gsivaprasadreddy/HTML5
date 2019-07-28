@@ -1,0 +1,161 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    //background-color: whitesmoke;
+    font-family: "Comic Sans MS",sans-serif;
+    margin: 0;
+}
+P{
+    text-align: center;
+}
+iframe{
+    padding-right: 50px;
+}
+a{
+    text-decoration:none;
+}
+ol,ul{
+    font-family:Arial, sans-serif;
+    background-color: dodgerblue;
+    padding: 20px;
+    box-shadow: 5px 5px 10px ghostwhite;
+    margin:10px;
+    border-radius: 20px;
+    width:40%;
+}
+li{
+    background-color:aquamarine;
+    margin: 2px;
+    font-size:20px;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(45deg,orangered,white,forestgreen);
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    color: deeppink;
+
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+img , iframe{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+#siva{
+    text-align: center;
+    background-color: aquamarine;
+}
+#sudha{
+    background-color: darkgoldenrod;
+    text-align: center;
+    background: linear-gradient(45deg,green,darkgoldenrod,deeppink);
+
+}
+#ashwini{
+    background-color: darkgoldenrod;
+    text-align: center;
+    background: linear-gradient(45deg,indianred,royalblue,wheat);
+
+}
+#geethu{
+    background: linear-gradient(45deg,teal,saddlebrown,cyan);
+
+}
+#GNR{
+    background: linear-gradient(45deg,greenyellow,darkorange,blueviolet);
+}
+#GSR{
+    background: linear-gradient(45deg,mediumaquamarine,hotpink,darkorange);
+}
+#rani{
+    background-color: darkseagreen;
+}
+#aaa{
+    background: linear-gradient(45deg,royalblue,yellowgreen,aqua);
+}
+#bbb{
+    background: linear-gradient(45deg,chartreuse,rebeccapurple,tomato);
+}
+#GVS{
+    background: linear-gradient(45deg,royalblue,lavenderblush,hotpink);
+}
+#GRM{
+    background: linear-gradient(45deg,violet,dimgray,aquamarine);
+
+    border:10px solid orangered;
+
+}
+#sss{
+    //border:10px solid orange;
+    background: linear-gradient(45deg,royalblue,darkkhaki,orchid);
+}
+#ccc{
+    border:10px solid orangered;
+    background: linear-gradient(45deg,rebeccapurple,darkkhaki,palegreen);
+
+
+}
+
+#ddd {
+    background-color: rosybrown;
+    text-align: center;
+    padding: 5px;
+    border:7px solid blue;
+}
+#aa{
+    border:5px solid orangered;
+}
+#bb{
+    border:5px solid orange;
+}
+h3{
+    text-align: center;
+}
+#ssss{
+    background-color:lemonchiffon;
+    color:orangered;
+    font-size: large;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

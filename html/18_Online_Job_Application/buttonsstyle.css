@@ -1,0 +1,113 @@
+.siva[type='reset']{
+    position: absolute;
+    /*top: 40%;
+    left: 40%;*/
+    transform:translate(-50%,-50%);
+    /*width:200px;
+    height:60px;*/
+    text-align:center;
+    line-height:35px;
+    color:#fff;
+    font-size:15px;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 100px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.siva:hover {
+    animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 100%;
+    }
+}
+.siva:before
+{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    right:-5px;
+    bottom:-5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 100px;
+    border-radius: 10px;
+    opacity:0;
+    transition:0.5s;
+}
+.siva:hover:before
+{
+    filter:blur(10px);
+    opacity: 1;
+    animation: animate 7s linear infinite;
+
+}
+.hari[type='submit']{
+    position: absolute;
+    /*top: 40%;
+    left: 40%;*/
+    transform:translate(-50%,-50%);
+    /*width:200px;
+    height:60px;*/
+    text-align:center;
+    line-height:35px;
+    color:#fff;
+    font-size:15px;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 100px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.hari:hover {
+    animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 100%;
+    }
+}
+.hari:before
+{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    right:-5px;
+    bottom:-5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 100px;
+    border-radius: 10px;
+    opacity:0;
+    transition:0.5s;
+}
+.hari:hover:before
+{
+    filter:blur(10px);
+    opacity: 1;
+    animation: animate 5s linear infinite;
+
+}
+

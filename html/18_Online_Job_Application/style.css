@@ -1,0 +1,135 @@
+
+
+body{
+    background-image: url("img/background2.jpg");
+    color:white;
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 15px;
+    padding: 10px;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    hegint:70px;
+
+    align-item:center;
+    justify-content:center;
+
+
+ }
+
+
+
+fieldset,legend{
+    padding-bottom: 10px;
+
+}
+input{
+    border-radius: 10px;
+    background-color:cadetblue;
+    color: green;
+    border:5px red;
+}
+ input:hover{
+    background-color:coral;
+
+}
+
+
+textarea{
+    background-color: palegreen;
+    border-radius: 10px;
+    color: green;
+}
+textarea:hover{
+    background-color: coral;
+}
+.geethu,td{
+    padding-bottom: 20px;
+}
+
+/*input[type='submit']{
+    background-color: orangered;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: medium;
+
+}
+input[type='reset']{
+    background-color:red;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: medium;
+}
+*/
+table{
+    width:100%;
+
+}
+td{
+    padding: 8px;
+}
+fieldset{
+
+    box-shadow: 0 0 10px blue;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(10,30,20);
+    //background-image: url("img/download (11).jpg");
+}
+legend{
+    background-image: url("img/image17.jpg");
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: blue;
+    padding: 10px;
+    font-size:25px;
+    font-family:"Edwardian Script ITC",sans-serif;
+
+}
+
+.box {
+    display: flex;
+}
+
+.inner{
+    width:700px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 6em;
+    font-family: sans-serif;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow:hidden;
+    box-shadow: 4px 6px 8px rgba(110,101,10,0.5);
+
+}
+.inner:first-child{
+    background:lightcoral;
+    color:yellow;
+    transform-origin:right;
+    transform:perspective(250px)rotateY(-15deg);
+}
+.inner:last-child{
+    background:lightcoral;
+    color: #ff0;
+    transform-origin:left;
+    transform:perspective(250px)rotateY(15deg);
+}
+.inner span{
+    position:absolute;
+    animation:marquee 5s linear infinite;
+}
+.inner:first-child span{
+    animation-delay:2s;
+    right: -100%;
+}
+@keyframes marquee{
+    from{
+        right:100%;
+    }to{
+         right: -100%;
+     }
+}
+
+
